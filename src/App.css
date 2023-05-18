@@ -1,0 +1,85 @@
+.todolist_container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80rem;
+  border: 1px solid black;
+  min-height: 50rem;
+  margin: 5rem;
+  background-color: #332940;
+  border-radius: 1rem;
+}
+
+.todo_form{
+  display: flex;
+  width: 100%;
+  margin-top: 3rem;
+  font-size: 2rem;
+  gap: 2rem;
+}
+
+.todo_form_input{
+  font-size: 3.5rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.todo_form_input :-ms-input-placeholder{
+  font-size: 3.5rem;
+}
+
+.todo_form_submit_button{
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: white;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+.todo_form_submit_button:hover{
+  background-color: black;
+  color: white;
+}
+
+.task_div{
+  background-color: #BB86FC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0.25rem 1rem 40px 20px rgb(113, 92, 221);
+}
+
+.complete_task_div{
+  background-color: #BB86FC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-decoration: line-through;
+}
+
+.todo_text{
+  font-size: 2.5rem;
+}
+
+.icons{
+  display: flex;
+  font-size: 2.5rem;
+  gap: 1rem;
+}
+
+.tick{
+  cursor: pointer;
+}
+
+.cross{
+  cursor: pointer;
+}
